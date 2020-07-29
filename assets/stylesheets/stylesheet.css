@@ -7,3 +7,11 @@ body{
     max-width: 80%;
     min-height: 100vh;
 }
+
+/* xs screens */
+@media screen and (max-width: 767px){
+    /* .container takes up 100% width */
+    .container{
+        max-width: 100%;
+    }
+}
