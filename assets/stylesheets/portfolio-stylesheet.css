@@ -3,7 +3,6 @@
         padding: 10px;
         overflow: hidden;
         
-        width: 600px;
         height: 600px;
     }
 
@@ -11,8 +10,13 @@
         padding: 10px;
         overflow: hidden;
     
-        width: 200px;
         height: 200px;
+    }
+
+    img{
+        object-fit: cover;
+        min-width: 100%;
+        min-height: 100%;
     }
 }
 
