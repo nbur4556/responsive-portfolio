@@ -1,0 +1,17 @@
+.main-img-container{
+    padding: 20px;
+    width: 600px;
+    height: 600px;
+}
+
+.support-img{
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.img{
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
