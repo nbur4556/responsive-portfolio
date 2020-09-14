@@ -18,7 +18,7 @@ If you are opting out of career services, this is _still a required assignment_.
 
 | Requirement      | Weight |
 | ---------------- | ------ |
-| Portoflio        | 30%    |
+| Portfolio        | 30%    |
 | GitHub Profile   | 30%    |
 | Resume           | 30%    |
 | LinkedIn Profile | 10%    |
