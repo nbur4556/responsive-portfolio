@@ -14,4 +14,8 @@ body{
     .container{
         max-width: 100%;
     }
+
+    .site-links{
+        display: none;
+    }
 }
