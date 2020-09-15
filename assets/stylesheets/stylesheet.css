@@ -8,10 +8,22 @@ body{
     min-height: 100vh;
 }
 
+.h-menu{
+    display: none;
+}
+
 /* xs screens */
 @media screen and (max-width: 767px){
     /* .container takes up 100% width */
     .container{
         max-width: 100%;
+    }
+
+    .site-links{
+        display: none;
+    }
+
+    .h-menu{
+        display: inline;
     }
 }
