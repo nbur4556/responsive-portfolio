@@ -16,10 +16,10 @@
 
     <body>
         <!-- Navigation bar for all pages -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav class="dropdown navbar navbar-expand-md navbar-dark bg-dark">
             <a class="navbar-brand" href="index.html">Nick Burt</a>
             <!-- Site links for large screens -->
-            <ul class="site-links navbar-nav">
+            <ul class="site-links navbar-nav dropdown-menu bg-dark p-3" aria-labelledby="dropdownMenu2">
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
@@ -31,7 +31,8 @@
                 </li>
             </ul>
             <!-- Menu icon for small screens -->
-            <div class='h-menu'>
+            <div class="h-menu dropdown-toggle" type='button' id="dropdownMenu2" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
                 <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-list" fill="white"
                     xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd"
