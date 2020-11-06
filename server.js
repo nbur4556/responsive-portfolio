@@ -7,17 +7,17 @@ app.use(express.static("public"));
 
 // Home
 app.get('/', (req, res) => {
-    res.sendFile(index.html);
+    res.sendFile("index.html");
 });
 
 // Portfolio
 app.get('/portfolio', (req, res) => {
-    res.sendFile(portfolio.html);
+    res.sendFile(__dirname + "/public/portfolio.html");
 });
 
 //Contact
 app.get('/contact', (req, res) => {
-    res.sendFile(contact.html);
+    res.sendFile(__dirname + "/public/contact.html");
 });
 
 app.listen(PORT, () => {
