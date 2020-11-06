@@ -2,9 +2,9 @@
   "name": "responsive-portfolio",
   "version": "1.0.0",
   "description": "My portfolio displaying my information, projects, and contact details. Each project shown in the portfolio will have information on what was completed with the project, and a link to the website and git repo where applicable. The portfolio takes advantage of responsive design in order to be usable and visually appealing on a variety of screen sizes and devices.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
