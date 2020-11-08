@@ -1,29 +1,68 @@
+:root{
+    --main-white: #F1F1EA;
+    --main-dark: #474843;
+    --main-secondary: #084B83;
+    --main-accent: #DA4167;
+}
+
+/* General Style */
 body{
-    background-color: #EEE;
+    background-color: var(--main-white);
 }
 
-/* .container takes up 80% width, and pushes footer to bottom of the page */
-.container{
-    max-width: 80%;
-    min-height: 100vh;
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Orienta', sans-serif;
 }
 
-.h-menu{
-    display: none;
+p, a {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
 }
 
-/* xs screens */
-@media screen and (max-width: 767px){
-    /* .container takes up 100% width */
-    .container{
-        max-width: 100%;
-    }
+h2{
+    font-size: 80px;
+}
 
-    .site-links{
-        display: none;
-    }
+/* Layout */
+article{
+    display: grid;
+}
 
-    .h-menu{
-        display: inline;
-    }
+nav, footer{ 
+    grid-column: 1 / span 2;
+    height: 5vh;
+    background-color: var(--main-dark);
+}
+
+/* Elements */
+.nav-links, .footer-links{
+    display: flex;
+    align-items: center;
+
+    padding-left: 30px;
+    height: 100%;
+}
+
+.nav-links a, .footer-links a{
+    color: var(--main-white);
+}
+
+.nav-links :first-child a{
+    font-size: 30px;
+}
+
+.nav-links{
+    justify-content: space-between;
+    width: 60%;
+}
+
+.footer-links{
+    justify-content: space-evenly;
+}
+
+.card{
+    padding: 40px;
+    color: var(--main-white);
+    background-color: var(--main-secondary);
 }
