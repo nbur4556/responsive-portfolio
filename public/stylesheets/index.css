@@ -1,17 +1,44 @@
 article{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 4fr;
+    grid-template-rows: auto 1fr 1fr auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .profile-image{
     grid-row: 2 / span 2;
     overflow: hidden;
 
-    height: 90vh;
+    height: 95vh;
 }
 
 .profile-image img{
     position: relative;
+    bottom: -80px;
+    left: -80px;
 
     transform: scaleX(-1);
-    width: 1500px;
+    width: 850px;
+}
+
+.profile-image .accent-field{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+    background-color: var(--main-accent);
+    width: 600px;
+    height: 650px;
+    z-index: -1;
+}
+
+.welcome-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-dark);
 }
