@@ -15,40 +15,17 @@
 
     <body>
         <!-- Navigation bar for all pages -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <a class="navbar-brand" href="/">Nick Burt</a>
-            <!-- Site links for large screens -->
-            <ul class="site-links navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./assets/web-dev-resume.pdf">Resume</a>
-                </li>
+        <nav>
+            <a href="/">Nick Burt</a>
+            <ul>
+                <li> <a href="/portfolio">Portfolio</a> </li>
+                <li> <a href="/contact">Contact</a> </li>
+                <li> <a href="./assets/web-dev-resume.pdf">Resume</a> </li>
             </ul>
-            <!-- Menu dropdown for small screens -->
-            <section class='h-menu dropdown'>
-                <div type='button' id="dropdown-menu-2" data-toggle="dropdown">
-                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-list" fill="white"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                    </svg>
-                </div>
-                <!-- Site links for small screens -->
-                <ul class="dropdown-menu dropdown-menu-right bg-dark" aria-labelledby="dropdown-menu-2">
-                    <li class="m-4"><a class="text-light" href="/portfolio">Portfolio</a></li>
-                    <li class="m-4"><a class="text-light" href="/contact">Contact</a></li>
-                    <li class="m-4"><a class="text-light" href="./assets/web-dev-resume.pdf">Resume</a></li>
-                </ul>
-            </section>
         </nav>
 
         <!-- Main Content -->
-        <article class="container mt-3">
+        <article>
             <h2>Contact Me</h2>
 
             <!-- Contact Details -->
@@ -61,32 +38,29 @@
 
             <!-- Contact Form -->
             <form>
-                <div class="form-group">
-                    <label for="name-input">Name</label>
-                    <input type="text" class="form-control" id="name-input" />
-                </div>
-                <div class="form-group">
-                    <label for="email-input">Email Address</label>
-                    <input type="email" class="form-control" id="email-input" />
-                </div>
-                <div class="form-group">
-                    <label for="message-input">Message</label>
-                    <textarea class="form-control" id="message-input" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <label for="name-input">Name</label>
+                <input type="text" id="name-input" />
+
+                <label for="email-input">Email Address</label>
+                <input type="email" id="email-input" />
+
+                <label for="message-input">Message</label>
+                <textarea id="message-input" rows="3"></textarea>
+
+                <button type="submit">Submit</button>
             </form>
-            <p class="text-muted">
+            <p>
                 Note: The contact form does not yet work. Please use the contact details above.
             </p>
         </article>
 
         <!-- Footer section for all pages -->
-        <footer class="d-flex justify-content-center align-items-center bg-dark mt-3">
-            <a href="https://github.com/nbur4556" class="text-light">
-                <p class="pt-3 pr-3 pl-3 text-monospace">Github</p>
+        <footer>
+            <a href="https://github.com/nbur4556">
+                <p>Github</p>
             </a>
-            <a href="https://www.linkedin.com/in/nick-burt/" class="text-light">
-                <p class="pt-3 pr-3 pl-3 text-monospace">Linked In</p>
+            <a href="https://www.linkedin.com/in/nick-burt/">
+                <p>Linked In</p>
             </a>
         </footer>
     </body>
