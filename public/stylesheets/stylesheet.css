@@ -16,20 +16,15 @@ article{
     display: grid;
 }
 
-nav{ 
+nav, footer{ 
     grid-column: 1 / span 2;
+    height: 5vh;
     background-color: grey;
-}
-
-footer{
-    grid-column: 1 / span 2;
-    background-color: green;
 }
 
 /* Elements */
 .nav-links, .footer-links{
     display: flex;
-    margin: 30px;
     font-size: 40px;
 }
 

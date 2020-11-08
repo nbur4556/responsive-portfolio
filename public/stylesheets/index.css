@@ -4,10 +4,14 @@ article{
 
 .profile-image{
     grid-row: 2 / span 2;
+    overflow: hidden;
 
-    background-color: red;
+    height: 90vh;
 }
 
 .profile-image img{
-    width: 1000px;
+    position: relative;
+
+    transform: scaleX(-1);
+    width: 1500px;
 }
