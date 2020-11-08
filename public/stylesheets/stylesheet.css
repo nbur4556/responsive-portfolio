@@ -1,3 +1,56 @@
+/* General Style */
 body{
     background-color: #EEE;
+}
+
+h2{
+    font-size: 80px;
+}
+
+p {
+    font-size: 30px;
+}
+
+/* Layout */
+article{
+    display: grid;
+}
+
+nav{ 
+    grid-column: 1 / span 2;
+    background-color: grey;
+}
+
+footer{
+    grid-column: 1 / span 2;
+    background-color: green;
+}
+
+/* Elements */
+.nav-links, .footer-links{
+    display: flex;
+    margin: 30px;
+    font-size: 40px;
+}
+
+.nav-links{
+    justify-content: space-between;
+    width: 60%;
+}
+
+.footer-links{
+    justify-content: space-evenly;
+}
+
+.card{
+    padding: 20px;
+    background-color: white;
+}
+
+.card h5{
+    font-size: 60px;
+}
+
+.card h6{
+    font-size: 50px;
 }

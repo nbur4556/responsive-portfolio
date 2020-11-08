@@ -1,17 +1,5 @@
 article{
-    display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-nav{
-    grid-column: 1 / span 2;
-
-    background-color: blue;
-}
-
-footer{
-    grid-column: 1 / span 2;
-    background-color: green;
 }
 
 .profile-image{
