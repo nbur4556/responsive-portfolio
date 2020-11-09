@@ -3,6 +3,7 @@
     --main-dark: #474843;
     --main-secondary: #084B83;
     --main-accent: #DA4167;
+    --light-secondary: #399bd4;
 }
 
 /* General Style */
@@ -20,12 +21,54 @@ p, a {
     text-decoration: none;
 }
 
+h1{
+    font-size: 100px;
+}
+
 h2{
     font-size: 80px;
 }
 
+h3{
+    font-size: 60px;
+}
+
+h4{
+    font-size: 40px;
+}
+
+h5{
+    font-size: 30px;
+}
+
+h6{
+    font-size: 20px;
+}
+
 a{
     color: var(--main-secondary);
+}
+
+a:hover{
+    color: var(--light-secondary);
+}
+
+a:active{
+    color: var(--main-accent);
+}
+
+button{
+    padding: 10px;
+
+    font-size: 20px;
+    font-family: "Oxygen", sans-serif;
+
+    background-color: var(--main-white);
+    border: none;
+}
+
+button:hover{
+    background-color: var(--main-accent);
 }
 
 /* Layout */
