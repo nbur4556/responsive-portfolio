@@ -62,11 +62,6 @@ button:hover{
     background-color: var(--main-accent);
 }
 
-/* Layout */
-article{
-    display: grid;
-}
-
 nav, footer{ 
     height: 7vh;
     background-color: var(--main-dark);
