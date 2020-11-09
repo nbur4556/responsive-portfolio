@@ -78,7 +78,7 @@ article{
 
 nav, footer{ 
     grid-column: 1 / span 2;
-    height: 5vh;
+    height: 7vh;
     background-color: var(--main-dark);
 }
 
@@ -95,13 +95,17 @@ nav, footer{
     color: var(--main-white);
 }
 
-.nav-links :first-child a{
-    font-size: 30px;
-}
-
 .nav-links{
     justify-content: space-between;
     width: 60%;
+}
+
+.nav-links .sub-header{
+    font-family: "Puritan", sans-serif;
+}
+
+.nav-links :first-child a{
+    font-size: 30px;
 }
 
 .footer-links{
