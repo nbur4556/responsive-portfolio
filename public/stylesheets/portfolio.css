@@ -1,19 +1,20 @@
 article{
     grid-template-columns: 1fr;
-    grid-gap: 3rem;
 }
 
 a{
     color: var(--main-white);
 }
 
-/* Right Project */
-.right-project{
+.right-project, .left-project{
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
     grid-gap: 20px;
+
+    margin-bottom: 4rem;
 }
 
+/* Right Project */
 .right-project .title-card{
     grid-column: 5 / span 1;
 
@@ -36,17 +37,10 @@ a{
     grid-column: 1 / span 4;
 }
 .right-project .buttons{
-    margin-left: 20px;
     grid-column: 1 / span 2;
 }
 
 /* Left Project */
-.left-project{
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
-    grid-gap: 20px;
-}
-
 .left-project .title-card{
     grid-column: 2 / span 1;
 
@@ -74,6 +68,11 @@ a{
     grid-column: 3 / span 4;
 }
 
+.left-project .buttons{
+    grid-column: 5 / span 2;
+    text-align: right;
+}
+
 .title-card{
     top: 3rem;
     padding: 15px;
@@ -84,7 +83,7 @@ a{
 }
 
 .buttons button{
-    margin-right: 20px;
+    margin: 0px 20px;
     padding: 10px 30px;
     background-color: var(--main-secondary);
 }
