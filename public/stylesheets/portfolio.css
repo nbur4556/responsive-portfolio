@@ -1,7 +1,40 @@
 article{
-    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr;
 }
 
-nav, footer{
-    grid-column: 1 / span 6;
+.right-project{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+    grid-gap: 20px;
+
+    background-color: green;
+}
+
+.right-project .title-card{
+    grid-column: 5 / span 1;
+    background-color: blue;
+}
+
+.right-project .main-image{
+    grid-column: 3 / span 3;
+    grid-row: 2 / span 2;
+    background-color: yellow;
+}
+
+.right-project .support-image{
+    grid-column: 2 / span 1;
+    background-color: red;
+}
+
+.right-project .description-card{
+    grid-column: 1 / span 4;
+    background-color: blue;
+}
+
+.main-image img{
+    width: 500px;
+}
+
+.support-image img{
+    width: 300px;
 }
