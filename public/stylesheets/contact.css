@@ -3,6 +3,10 @@ article{
     grid-template-rows: auto 93vh auto;
 }
 
+nav, footer{
+    grid-column: 1 / span 2;
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -42,6 +46,18 @@ form button{
     margin-bottom: 15px;
 
     width: 20%;
+}
+
+a{
+    color: var(--main-secondary);
+}
+
+a:hover{
+    color: var(--light-secondary);
+}
+
+a:active{
+    color: var(--main-accent);
 }
 
 .contact-details{

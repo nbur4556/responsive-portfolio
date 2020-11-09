@@ -48,18 +48,6 @@ h6{
     font-size: 20px;
 }
 
-a{
-    color: var(--main-secondary);
-}
-
-a:hover{
-    color: var(--light-secondary);
-}
-
-a:active{
-    color: var(--main-accent);
-}
-
 button{
     padding: 10px;
 
@@ -80,7 +68,6 @@ article{
 }
 
 nav, footer{ 
-    grid-column: 1 / span 2;
     height: 7vh;
     background-color: var(--main-dark);
 }

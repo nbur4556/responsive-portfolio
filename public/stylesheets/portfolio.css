@@ -1,0 +1,98 @@
+article{
+    grid-template-columns: 1fr;
+}
+
+a{
+    color: var(--main-white);
+}
+
+.right-project, .left-project{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 2fr 1fr;
+    grid-gap: 20px;
+
+    margin-bottom: 5rem;
+}
+
+/* Right Project */
+.right-project .title-card{
+    grid-column: 5 / span 1;
+
+    position: relative;
+    left: 3rem;
+}
+
+.right-project .main-image{
+    grid-column: 3 / span 3;
+    grid-row: 2 / span 2;
+}
+
+.right-project .support-image{
+    grid-column: 2 / span 1;
+}
+
+.right-project .description-card{
+    grid-column: 1 / span 4;
+}
+.right-project .buttons{
+    grid-column: 1 / span 2;
+}
+
+/* Left Project */
+.left-project .title-card{
+    grid-column: 2 / span 1;
+
+    position: relative;
+    right: 3rem;
+}
+
+.left-project .spacer{
+    grid-column: 3 / span 3;
+}
+
+.left-project .main-image{
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 2;
+}
+
+.left-project .support-image{
+    grid-column: 5 / span 1;
+}
+
+.left-project .description-card{
+    grid-column: 3 / span 4;
+}
+
+.left-project .buttons{
+    grid-column: 5 / span 2;
+    text-align: right;
+}
+
+.title-card{
+    top: 3rem;
+    padding: 15px;
+
+    text-align: center;
+    background-color: var(--main-secondary);
+    color: var(--main-white);
+}
+
+.single-image{
+    grid-column: 2 / span 4;
+    grid-row: 2 / span 2;
+}
+
+.buttons button{
+    margin: 0px 20px;
+    padding: 10px 30px;
+    background-color: var(--main-secondary);
+}
+
+.buttons button:hover{
+    background-color: var(--main-accent);
+}
+
+img{
+    border: 1px solid var(--main-dark);
+    width: 100%;
+}
