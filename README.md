@@ -8,9 +8,7 @@ My portfolio displaying my information, projects, and contact details. Each proj
 
 * Semantic HTML used for document markup.
 
-* CSS used for simple styling.
-
-* [Bootstrap](https://getbootstrap.com/) used for layout and responsive components.
+* CSS Grid and Flexbox for layout and styling.
 
 ## Contact
 
