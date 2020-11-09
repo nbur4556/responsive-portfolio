@@ -63,13 +63,15 @@ nav, footer{
     .welcome-message{ 
         order: 1; 
         height: 25vh;
-
-        
     }
 
     .welcome-message h2{ font-size: 3em; }
 
-    .card{ order: 2; }
+    .card{ 
+        order: 2; 
+        justify-content: flex-start;
+        min-height: 55vh;
+    }
 
     footer{ order: 3; }
 
