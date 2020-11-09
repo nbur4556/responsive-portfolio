@@ -24,6 +24,10 @@ h2{
     font-size: 80px;
 }
 
+a{
+    color: var(--main-secondary);
+}
+
 /* Layout */
 article{
     display: grid;
