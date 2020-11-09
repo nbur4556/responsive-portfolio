@@ -7,16 +7,23 @@ form{
     display: flex;
     flex-direction: column;
 
-    padding: 50px 200px;
+    padding: 50px 170px;
 
     background-color: var(--main-secondary);
+}
+
+form label{
+    font-family: 'Puritan', sans-serif;
+}
+
+form p{
+    font-family: "Oxygen", sans-serif;
 }
 
 form label, form p{
     margin-bottom: 5px;
 
     font-size: 20px;
-    font-family: "Oxygen", sans-serif;
     color: var(--main-white);
 }
 
