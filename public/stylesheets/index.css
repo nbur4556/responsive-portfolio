@@ -1,6 +1,6 @@
 article{
     display: grid;
-    grid-template-columns: minmax(autofit, 3fr) minmax(500px, 4fr);
+    grid-template-columns: 3fr 4fr;
 }
 
 nav, footer{
@@ -11,6 +11,8 @@ nav, footer{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+
+    text-align: justify;
 }
 
 .profile-image{
@@ -44,9 +46,32 @@ nav, footer{
 
 .welcome-message{
     display: flex;
+    padding: 30px;
     justify-content: center;
     align-items: center;
     text-align: center;
 
     color: var(--main-dark);
+}
+
+@media (max-width: 900px){
+    article{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome-message{ 
+        order: 1; 
+        height: 25vh;
+
+        
+    }
+
+    .welcome-message h2{ font-size: 3em; }
+
+    .card{ order: 2; }
+
+    footer{ order: 3; }
+
+    .profile-image{ display: none; }
 }
