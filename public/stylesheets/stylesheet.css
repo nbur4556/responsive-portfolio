@@ -48,18 +48,6 @@ h6{
     font-size: 20px;
 }
 
-a{
-    color: var(--main-secondary);
-}
-
-a:hover{
-    color: var(--light-secondary);
-}
-
-a:active{
-    color: var(--main-accent);
-}
-
 button{
     padding: 10px;
 

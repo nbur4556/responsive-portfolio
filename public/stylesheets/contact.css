@@ -48,6 +48,18 @@ form button{
     width: 20%;
 }
 
+a{
+    color: var(--main-secondary);
+}
+
+a:hover{
+    color: var(--light-secondary);
+}
+
+a:active{
+    color: var(--main-accent);
+}
+
 .contact-details{
     padding: 50px;
 }
