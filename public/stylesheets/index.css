@@ -3,6 +3,10 @@ article{
     grid-template-rows: auto 1fr 1fr auto;
 }
 
+nav, footer{
+    grid-column: 1 / span 2;
+}
+
 .card{
     display: flex;
     flex-direction: column;

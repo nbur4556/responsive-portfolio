@@ -3,6 +3,10 @@ article{
     grid-template-rows: auto 93vh auto;
 }
 
+nav, footer{
+    grid-column: 1 / span 2;
+}
+
 form{
     display: flex;
     flex-direction: column;

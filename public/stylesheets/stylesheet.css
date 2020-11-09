@@ -80,7 +80,6 @@ article{
 }
 
 nav, footer{ 
-    grid-column: 1 / span 2;
     height: 7vh;
     background-color: var(--main-dark);
 }
