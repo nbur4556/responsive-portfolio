@@ -2,6 +2,7 @@ article{
     grid-template-columns: 1fr;
 }
 
+/* Right Project */
 .right-project{
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
@@ -28,6 +29,41 @@ article{
 
 .right-project .description-card{
     grid-column: 1 / span 4;
+    background-color: blue;
+}
+
+/* Left Project */
+.left-project{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+    grid-gap: 20px;
+
+    background-color: green;
+}
+
+.left-project .title-card{
+    grid-column: 2 / span 1;
+    background-color: blue;
+}
+
+.left-project .spacer{
+    grid-column: 3 / span 3;
+}
+
+.left-project .main-image{
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 2;
+    background-color: yellow;
+}
+
+.left-project .support-image{
+    grid-column: 5 / span 1;
+    /* grid-row-start: 2; */
+    background-color: red;
+}
+
+.left-project .description-card{
+    grid-column: 3 / span 4;
     background-color: blue;
 }
 
