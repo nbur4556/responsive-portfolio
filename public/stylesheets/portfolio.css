@@ -7,13 +7,13 @@ article{
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
     grid-gap: 20px;
-
-    background-color: green;
 }
 
 .right-project .title-card{
     grid-column: 5 / span 1;
-    background-color: blue;
+
+    position: relative;
+    left: 3rem;
 }
 
 .right-project .main-image{
@@ -29,7 +29,10 @@ article{
 
 .right-project .description-card{
     grid-column: 1 / span 4;
-    background-color: blue;
+}
+.right-project .buttons{
+    margin-left: 20px;
+    grid-column: 1 / span 2;
 }
 
 /* Left Project */
@@ -37,13 +40,13 @@ article{
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
     grid-gap: 20px;
-
-    background-color: green;
 }
 
 .left-project .title-card{
     grid-column: 2 / span 1;
-    background-color: blue;
+
+    position: relative;
+    right: 3rem;
 }
 
 .left-project .spacer{
@@ -64,7 +67,26 @@ article{
 
 .left-project .description-card{
     grid-column: 3 / span 4;
-    background-color: blue;
+}
+
+.title-card{
+    top: 3rem;
+    padding: 15px;
+
+    text-align: center;
+    background-color: var(--main-secondary);
+    color: var(--main-white);
+}
+
+.buttons button{
+    margin-right: 20px;
+    padding: 10px 30px;
+    background-color: var(--main-secondary);
+    color: var(--main-white); 
+}
+
+.buttons button:hover{
+    background-color: var(--main-accent);
 }
 
 .main-image img{
