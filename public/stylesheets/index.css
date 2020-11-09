@@ -1,6 +1,6 @@
 article{
-    grid-template-columns: repeat(3fr 4fr);
-    grid-template-rows: auto 1fr 1fr auto;
+    display: grid;
+    grid-template-columns: minmax(autofit, 3fr) minmax(500px, 4fr);
 }
 
 nav, footer{
@@ -46,5 +46,7 @@ nav, footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
     color: var(--main-dark);
 }
