@@ -2,10 +2,6 @@ article{
     grid-template-columns: 1fr;
 }
 
-a{
-    color: var(--main-white);
-}
-
 .right-project, .left-project{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr 2fr 1fr;
@@ -85,6 +81,7 @@ a{
 .buttons button{
     margin: 0px 20px;
     padding: 10px 30px;
+    color: var(--main-white);
     background-color: var(--main-secondary);
 }
 
