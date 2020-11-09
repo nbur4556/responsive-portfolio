@@ -2,9 +2,14 @@ article{
     grid-template-columns: 1fr;
 }
 
+img{
+    border: 1px solid var(--main-dark);
+    width: 100%;
+}
+
 .right-project, .left-project{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr 2fr 1fr;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 2fr 0.5fr;
     grid-gap: 20px;
 
     margin-bottom: 5rem;
@@ -87,9 +92,4 @@ article{
 
 .buttons button:hover{
     background-color: var(--main-accent);
-}
-
-img{
-    border: 1px solid var(--main-dark);
-    width: 100%;
 }
