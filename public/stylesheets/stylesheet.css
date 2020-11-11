@@ -3,7 +3,8 @@
     --main-dark: #474843;
     --main-secondary: #084B83;
     --main-accent: #DA4167;
-    --light-secondary: #399bd4;
+    --light-dark: #74756E;
+    --light-secondary: #399BD4;
 }
 
 /* General Style */
@@ -65,6 +66,7 @@ button:hover{
 nav, footer{ 
     height: 7vh;
     background-color: var(--main-dark);
+    z-index: 10;
 }
 
 /* Elements */
@@ -93,6 +95,10 @@ nav, footer{
     font-size: 30px;
 }
 
+.ham-menu, .drop-menu{
+    display: none;
+}
+
 .footer-links{
     justify-content: space-evenly;
 }
@@ -101,4 +107,50 @@ nav, footer{
     padding: 40px;
     color: var(--main-white);
     background-color: var(--main-secondary);
+}
+
+@media (max-width: 900px){
+    .nav-links .sub-header{ display: none; }
+
+    .nav-links{
+        justify-content: space-between;
+        width: 87vw;
+    }
+
+    /* Hamburger Icon */
+    .ham-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+        width: 2.2rem;
+        height: 2.5rem;
+    }
+
+    .ham-bar{
+        width: 100%;
+        height: 7%;
+        background-color: var(--main-white);
+    }
+
+    /* Dropdown Menu */
+    .drop-menu{
+        flex-direction: column;
+        align-items: flex-end;
+
+        position: absolute;
+        right: 0;
+
+        width: 10rem;
+        background-color: var(--light-dark);
+    }
+
+    .drop-menu .sub-header{
+        padding: 1.5rem;
+    }
+
+    .drop-menu a{
+        color: var(--main-white);
+        font-family: "Puritan", sans-serif;
+    }
 }

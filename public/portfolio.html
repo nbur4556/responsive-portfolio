@@ -5,17 +5,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- CSS Stylesheets -->
-        <link rel="stylesheet" type="text/css" href="./stylesheets/reset.css" />
-        <link rel="stylesheet" type="text/css" href="./stylesheets/stylesheet.css" />
-        <link rel="stylesheet" type="text/css" href="./stylesheets/portfolio.css" />
-
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Orienta&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Puritan&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
 
+        <!-- CSS Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="./stylesheets/reset.css" />
+        <link rel="stylesheet" type="text/css" href="./stylesheets/stylesheet.css" />
+        <link rel="stylesheet" type="text/css" href="./stylesheets/portfolio.css" />
+
         <title>Responsive Portfolio - Portfolio</title>
+
+        <script type="text/Javascript" src="scripts/mainscript.js" defer></script>
     </head>
 
     <body>
@@ -24,6 +26,20 @@
             <nav>
                 <ul class="nav-links">
                     <li> <a href="/">Nick Burt</a> </li>
+                    <li class="sub-header"> <a href="/portfolio">Portfolio</a> </li>
+                    <li class="sub-header"> <a href="/contact">Contact</a> </li>
+                    <li class="sub-header"> <a href="./assets/web-dev-resume.pdf">Resume</a> </li>
+
+                    <!-- Hamburger Icon -->
+                    <div id="ham-menu" class="ham-menu">
+                        <div class="ham-bar"></div>
+                        <div class="ham-bar"></div>
+                        <div class="ham-bar"></div>
+                    </div>
+                </ul>
+
+                <!-- Dropdown Menu -->
+                <ul id="drop-menu" class="drop-menu">
                     <li class="sub-header"> <a href="/portfolio">Portfolio</a> </li>
                     <li class="sub-header"> <a href="/contact">Contact</a> </li>
                     <li class="sub-header"> <a href="./assets/web-dev-resume.pdf">Resume</a> </li>
