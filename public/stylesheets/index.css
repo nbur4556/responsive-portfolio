@@ -62,7 +62,7 @@ nav, footer{
 
     .welcome-message{ 
         order: 1; 
-        height: 25vh;
+        min-height: 25vh;
     }
 
     .welcome-message h2{ font-size: 3em; }
