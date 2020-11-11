@@ -93,6 +93,10 @@ nav, footer{
     font-size: 30px;
 }
 
+.ham-menu{
+    display: none;
+}
+
 .footer-links{
     justify-content: space-evenly;
 }
@@ -104,7 +108,27 @@ nav, footer{
 }
 
 @media (max-width: 900px){
-    .nav-links .sub-header{
-        display: none;
+    .nav-links .sub-header{ display: none; }
+
+    .nav-links{
+        justify-content: space-between;
+        width: 100vw;
+    }
+
+    /* Hamburger Icon */
+    .ham-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-right: 3.5rem;
+        
+        width: 2.2rem;
+        height: 3rem;
+    }
+
+    .ham-bar{
+        width: 100%;
+        height: 7%;
+        background-color: var(--main-white);
     }
 }
