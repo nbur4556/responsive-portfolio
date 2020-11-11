@@ -112,7 +112,7 @@ nav, footer{
 
     .nav-links{
         justify-content: space-between;
-        width: 100vw;
+        width: 85vw;
     }
 
     /* Hamburger Icon */
@@ -120,10 +120,9 @@ nav, footer{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        margin-right: 3.5rem;
         
         width: 2.2rem;
-        height: 3rem;
+        height: 2.5rem;
     }
 
     .ham-bar{
