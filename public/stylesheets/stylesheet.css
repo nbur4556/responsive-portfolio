@@ -102,3 +102,9 @@ nav, footer{
     color: var(--main-white);
     background-color: var(--main-secondary);
 }
+
+@media (max-width: 900px){
+    .nav-links .sub-header{
+        display: none;
+    }
+}
