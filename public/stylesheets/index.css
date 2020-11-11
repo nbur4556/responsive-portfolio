@@ -54,6 +54,12 @@ nav, footer{
     color: var(--main-dark);
 }
 
+@media (min-width: 900px){
+    .card p{
+        width: 60%;
+    }
+}
+
 @media (max-width: 900px){
     article{
         display: flex;

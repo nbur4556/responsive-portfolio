@@ -104,9 +104,13 @@ nav, footer{
 }
 
 .card{
-    padding: 40px;
+    padding: 2.5rem 0;
     color: var(--main-white);
     background-color: var(--main-secondary);
+}
+
+.card p{
+    margin: 1.5rem 4rem;
 }
 
 @media (max-width: 900px){
