@@ -3,7 +3,8 @@
     --main-dark: #474843;
     --main-secondary: #084B83;
     --main-accent: #DA4167;
-    --light-secondary: #399bd4;
+    --light-dark: #74756E;
+    --light-secondary: #399BD4;
 }
 
 /* General Style */
@@ -65,6 +66,7 @@ button:hover{
 nav, footer{ 
     height: 7vh;
     background-color: var(--main-dark);
+    z-index: 10;
 }
 
 /* Elements */
@@ -140,7 +142,7 @@ nav, footer{
         right: 0;
 
         width: 10rem;
-        background-color: var(--main-secondary);
+        background-color: var(--light-dark);
     }
 
     .drop-menu .sub-header{
