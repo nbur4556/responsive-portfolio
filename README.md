@@ -1,5 +1,7 @@
 # Responsive Portfolio
 
+[View Responsive Portfolio](https://n-burt.herokuapp.com/)
+
 ## Description
 
 My portfolio displaying my information, projects, and contact details. Each project shown in the portfolio will have information on what was completed with the project, and a link to the website and git repo where applicable. The portfolio takes advantage of responsive design in order to be usable and visually appealing on a variety of screen sizes and devices.
@@ -14,8 +16,6 @@ My portfolio displaying my information, projects, and contact details. Each proj
 * [Contribution](#Contribution)
 * [Tests](#Tests)
 * [Contact](#Contact)
-
-[View Responsive Portfolio](https://nbur4556.github.io/responsive-portfolio/index.html)
 
 ## Installation
 
