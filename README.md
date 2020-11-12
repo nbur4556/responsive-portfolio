@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Responsive Portfolio
 
 [View Responsive Portfolio](https://n-burt.herokuapp.com/)
@@ -13,6 +15,7 @@ My portfolio displaying my information, projects, and contact details. Each proj
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Technologies](#Technologies)
+* [License](#License)
 * [Contribution](#Contribution)
 * [Tests](#Tests)
 * [Contact](#Contact)
@@ -30,6 +33,10 @@ Navigate the website using the links in the navigation bar located at the top of
 * Semantic HTML used for document markup.
 * CSS Grid and Flexbox for layout and styling.
 * NodeJS for backend server.
+
+## License
+
+Responsive Portfolio is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Contribution
 
