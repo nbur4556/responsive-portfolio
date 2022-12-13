@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/nbur4556/homework-02-responsive-portfolio#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
